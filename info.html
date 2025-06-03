@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Про сайт | EasyTable</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #222;
+      padding: 10px 0;
+    }
+    .navbar {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .navbar li {
+      margin: 0 15px;
+    }
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .navbar a:hover {
+      color: #f39c12;
+    }
+    main {
+      max-width: 800px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    .logo {
+      display: block;
+      margin: 0 auto 30px;
+      width: 200px;
+      cursor: pointer;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="menu.html">Меню</a></li>
+        <li><a href="restaurant.html">Ресторан</a></li>
+        <li><a href="table.html">Бронювання</a></li>
+        <li><a href="reviews.html">Відгуки</a></li>
+        <li><a href="info.html">Про сайт</a></li>
+        <li><a href="test.html">Тест</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <img src="images/logo.png" alt="EasyTable Logo" class="logo" id="easter-logo">
+    <h1>Про сайт EasyTable</h1>
+    <p>
+      EasyTable — це сучасний вебсайт для ресторану, який надає зручний інтерфейс для перегляду меню, бронювання столиків та взаємодії з іншими клієнтами через відгуки. Ми прагнемо зробити ваш досвід простим, зручним та приємним.
+    </p>
+    <p>
+      Створено з любов'ю до дизайну, натхненно сайтом CASTA, і з увагою до деталей. Ми постійно вдосконалюємося, щоб ви могли насолоджуватися якісним сервісом.
+    </p>
+  </main>
+
+  <footer>
+    <p style="text-align:center; padding: 15px; background:#222; color:white">© 2025 EasyTable</p>
+  </footer>
+
+  <script>
+    // Пасхалка: перекидання на гру тетріс
+    document.getElementById('easter-logo').addEventListener('click', function() {
+      window.location.href = 'tetris.html';
+    });
+  </script>
+</body>
+</html>
